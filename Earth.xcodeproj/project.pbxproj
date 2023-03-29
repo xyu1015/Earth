@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		582910AE29D4257B00EEB0F0 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 582910AD29D4257B00EEB0F0 /* Earth.usdz */; };
 		A170E2B429D18D2D009A709C /* EarthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A170E2B329D18D2D009A709C /* EarthApp.swift */; };
 		A170E2B629D18D2D009A709C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A170E2B529D18D2D009A709C /* ContentView.swift */; };
 		A170E2B829D18D2E009A709C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A170E2B729D18D2E009A709C /* Assets.xcassets */; };
@@ -14,9 +15,6 @@
 		A170E2C529D18D2E009A709C /* EarthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A170E2C429D18D2E009A709C /* EarthTests.swift */; };
 		A170E2CF29D18D2E009A709C /* EarthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A170E2CE29D18D2E009A709C /* EarthUITests.swift */; };
 		A170E2D129D18D2E009A709C /* EarthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A170E2D029D18D2E009A709C /* EarthUITestsLaunchTests.swift */; };
-		A170E2DE29D18E03009A709C /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A170E2DD29D18E03009A709C /* Earth.usdz */; };
-		A170E2DF29D18F7E009A709C /* Earth.usdz in Sources */ = {isa = PBXBuildFile; fileRef = A170E2DD29D18E03009A709C /* Earth.usdz */; };
-		A170E2E229D1934F009A709C /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A170E2E129D1934F009A709C /* Earth.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		582910AD29D4257B00EEB0F0 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Earth.usdz; path = ../../../Downloads/Earth.usdz; sourceTree = "<group>"; };
 		A170E2B029D18D2D009A709C /* Earth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A170E2B329D18D2D009A709C /* EarthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthApp.swift; sourceTree = "<group>"; };
 		A170E2B529D18D2D009A709C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,8 +46,6 @@
 		A170E2CA29D18D2E009A709C /* EarthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A170E2CE29D18D2E009A709C /* EarthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthUITests.swift; sourceTree = "<group>"; };
 		A170E2D029D18D2E009A709C /* EarthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A170E2DD29D18E03009A709C /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Earth.usdz; path = ../../../../Documents/Earth.usdz; sourceTree = "<group>"; };
-		A170E2E129D1934F009A709C /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Earth.usdz; path = ../../../../../Documents/Earth.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +76,7 @@
 		A170E2A729D18D2D009A709C = {
 			isa = PBXGroup;
 			children = (
+				582910AD29D4257B00EEB0F0 /* Earth.usdz */,
 				A170E2B229D18D2D009A709C /* Earth */,
 				A170E2C329D18D2E009A709C /* EarthTests */,
 				A170E2CD29D18D2E009A709C /* EarthUITests */,
@@ -99,8 +97,6 @@
 		A170E2B229D18D2D009A709C /* Earth */ = {
 			isa = PBXGroup;
 			children = (
-				A170E2E029D1933B009A709C /* Resource */,
-				A170E2DD29D18E03009A709C /* Earth.usdz */,
 				A170E2B329D18D2D009A709C /* EarthApp.swift */,
 				A170E2B529D18D2D009A709C /* ContentView.swift */,
 				A170E2B729D18D2E009A709C /* Assets.xcassets */,
@@ -132,14 +128,6 @@
 				A170E2D029D18D2E009A709C /* EarthUITestsLaunchTests.swift */,
 			);
 			path = EarthUITests;
-			sourceTree = "<group>";
-		};
-		A170E2E029D1933B009A709C /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				A170E2E129D1934F009A709C /* Earth.usdz */,
-			);
-			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +234,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				582910AE29D4257B00EEB0F0 /* Earth.usdz in Resources */,
 				A170E2BB29D18D2E009A709C /* Preview Assets.xcassets in Resources */,
-				A170E2DE29D18E03009A709C /* Earth.usdz in Resources */,
-				A170E2E229D1934F009A709C /* Earth.usdz in Resources */,
 				A170E2B829D18D2E009A709C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A170E2DF29D18F7E009A709C /* Earth.usdz in Sources */,
 				A170E2B629D18D2D009A709C /* ContentView.swift in Sources */,
 				A170E2B429D18D2D009A709C /* EarthApp.swift in Sources */,
 			);
@@ -436,7 +422,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Earth/Preview Content\"";
-				DEVELOPMENT_TEAM = 6Z3LZX7N42;
+				DEVELOPMENT_TEAM = 7Q6Y95A9V9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -444,6 +430,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,7 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Earth/Preview Content\"";
-				DEVELOPMENT_TEAM = 6Z3LZX7N42;
+				DEVELOPMENT_TEAM = 7Q6Y95A9V9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -474,6 +461,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
