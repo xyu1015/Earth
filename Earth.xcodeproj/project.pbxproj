@@ -17,8 +17,6 @@
 		A170E2DE29D18E03009A709C /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A170E2DD29D18E03009A709C /* Earth.usdz */; };
 		A170E2DF29D18F7E009A709C /* Earth.usdz in Sources */ = {isa = PBXBuildFile; fileRef = A170E2DD29D18E03009A709C /* Earth.usdz */; };
 		A170E2E229D1934F009A709C /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A170E2E129D1934F009A709C /* Earth.usdz */; };
-		A18F0D6E29D22D02004E323B /* buttonImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A18F0D6D29D22D02004E323B /* buttonImage.jpg */; };
-		A18F0D6F29D22D07004E323B /* buttonImage.jpg in Sources */ = {isa = PBXBuildFile; fileRef = A18F0D6D29D22D02004E323B /* buttonImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +49,6 @@
 		A170E2D029D18D2E009A709C /* EarthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A170E2DD29D18E03009A709C /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Earth.usdz; path = ../../../../Documents/Earth.usdz; sourceTree = "<group>"; };
 		A170E2E129D1934F009A709C /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Earth.usdz; path = ../../../../../Documents/Earth.usdz; sourceTree = "<group>"; };
-		A18F0D6D29D22D02004E323B /* buttonImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = buttonImage.jpg; path = ../../../../../Desktop/buttonImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +137,6 @@
 		A170E2E029D1933B009A709C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				A18F0D6D29D22D02004E323B /* buttonImage.jpg */,
 				A170E2E129D1934F009A709C /* Earth.usdz */,
 			);
 			path = Resource;
@@ -252,7 +248,6 @@
 			files = (
 				A170E2BB29D18D2E009A709C /* Preview Assets.xcassets in Resources */,
 				A170E2DE29D18E03009A709C /* Earth.usdz in Resources */,
-				A18F0D6E29D22D02004E323B /* buttonImage.jpg in Resources */,
 				A170E2E229D1934F009A709C /* Earth.usdz in Resources */,
 				A170E2B829D18D2E009A709C /* Assets.xcassets in Resources */,
 			);
@@ -279,7 +274,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A18F0D6F29D22D07004E323B /* buttonImage.jpg in Sources */,
 				A170E2DF29D18F7E009A709C /* Earth.usdz in Sources */,
 				A170E2B629D18D2D009A709C /* ContentView.swift in Sources */,
 				A170E2B429D18D2D009A709C /* EarthApp.swift in Sources */,

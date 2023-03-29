@@ -20,7 +20,6 @@ struct ARViewContainer: UIViewRepresentable {
         sceneView.contentMode = .scaleAspectFit
         sceneView.scene = scene
         sceneView.allowsCameraControl = true
-
         sceneView.backgroundColor = UIColor.white
         
         return sceneView
@@ -36,7 +35,7 @@ struct ARViewContainer: UIViewRepresentable {
         let translation = recognizer.translation(in: recognizer.view)
             
         // Convert the translation to a rotation angle
-        let rotationAngle = Float(translation.x) * (-5)
+        let rotationAngle = Float(translation.x) * -10
             
         // Update the current rotation angle
         currentAngle += rotationAngle
